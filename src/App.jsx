@@ -13,7 +13,7 @@ function App() {
     if (location.pathname === '/Dashboard') {
       navigate('/Dashboard/estadistica');
     }
-  }, [location.pathname, navigate]); // Añade 'navigate' como dependencia
+  }, [location.pathname, navigate]); 
 
   return (
     <>
