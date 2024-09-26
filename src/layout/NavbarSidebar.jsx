@@ -34,7 +34,7 @@ const NavbarSidebar = () => {
               <FaUserAlt />
             </button>
           </div>
-          {}
+          
         </div>
       </nav>
 
