@@ -1,3 +1,28 @@
 #Menu{
     backdrop-filter: blur(15px);
 }
+
+.contenedorUser{
+    position: absolute;
+    background-color: #212629;
+    padding: 0.5em;
+    width: auto;
+    right: 0%;
+    z-index: 10;
+    border-radius: 0.5em;
+    animation: contenedorUser 0.5s ease-out forwards;
+}
+
+@keyframes contenedorUser{
+    from {
+        transform: translateY(-30px);
+        transform: translateX(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        transform: translateX(0);
+        opacity: 2;
+      }
+}
+
